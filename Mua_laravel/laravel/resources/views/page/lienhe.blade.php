@@ -51,7 +51,7 @@
 
 					<h6 class="contact-title">Address</h6>
 					<p>
-						Suite 127 / 267 – 277 Brussel St,<br>
+						Suite 127 / 267 -277 Brussel St,<br>
 						62 Croydon, NYC <br>
 						Newyork
 					</p>
@@ -65,7 +65,7 @@
 					<div class="space20">&nbsp;</div>
 					<h6 class="contact-title">Employment</h6>
 					<p>
-						We’re always looking for talented persons to <br>
+						We're always looking for talented persons to <br>
 						join our team. <br>
 						<a href="hr@betadesign.com">hr@betadesign.com</a>
 					</p>
