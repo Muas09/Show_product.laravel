@@ -20,18 +20,18 @@
 	}		
 	public function addProduct(Request $request)		
 	{		
-	$product = new Product();		
-	$product->name = $request->input('name');		
-	$product->image = $request->input('image');		
-	$product->description = $request->input('description');		
-	$product->unit_price = intval($request->input('unit_price'));		
-	$product->promotion_price = intval($request->input('promotion_price'));		
-	$product->unit = $request->input('unit');		
-	$product->new = intval($request->input('new'));		
-	$product->id_type = intval($request->input('id_type'));		
-	$product->save();		
-	return $product;		
-	}		
+		$product = new Product();		
+		$product->name = $request->input('name');		
+		$product->image = $request->input('image');		
+		$product->description = $request->input('description');		
+		$product->unit_price = intval($request->input('unit_price'));		
+		$product->promotion_price = intval($request->input('promotion_price'));		
+		$product->unit = $request->input('unit');		
+		$product->new = intval($request->input('new'));		
+		$product->id_type = intval($request->input('id_type'));		
+		$product->save();		
+		return $product;		
+		}		
 	public function deleteProduct($id)		
 	{		
 	$product = Product::find($id);		
